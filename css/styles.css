@@ -1,0 +1,99 @@
+/* 
+
+- Fonts: 
+-- font-family: 'Cormorant', serif;
+-- font-family: 'Raleway', sans-serif;
+
+- Colors:
+-- Red: #d45651
+-- Light Tan: #f4e2cb
+-- Dark Tan: #c8a791
+-- Light Teal: #d8e4d4
+-- Light Blue: #b7ded7
+-- Moss Brown: #7b6c51
+-- Faded Green: #a3ae9b
+-- Green: #90bca6
+
+
+*/
+
+/* 
+
+######## TABLE OF CONTENTS ###########
+
+#GENERAL FORMATTING
+#HEADER
+
+*/
+
+/* ################ #GENERAL FORMATTING ################# */
+
+body {
+  font-family: "Cormorant", "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 0;
+  background-image: url("../images/shawn-rain-O96dPUGMAsE-unsplash.jpg");
+  background-size: cover;
+}
+
+#content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ################ #HEADER################# */
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #b7ded793;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90%;
+  max-width: 800px;
+}
+
+.btn__home {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-left: outset 3px #c8a791;
+  border-right: outset 3px #c8a791;
+  border-top: outset 3px #c8a791;
+
+  border-bottom: solid 3px white;
+  margin-bottom: -3px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2vw;
+}
+
+.nav__tab {
+  border-top: inset 3px #c8a791;
+  border-left: inset 3px #c8a791;
+  border-right: inset 3px #c8a791;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: linear-gradient(to bottom right, #c9ebee, #708f5a);
+  padding: 0 2vw;
+}
+
+main {
+  border: outset 3px #c8a791;
+  border-radius: 5px;
+  height: 300px;
+  width: 100%;
+  background-color: white;
+}
+
+/* ########### #ACTION STATES ############## */
+.tab--selected {
+  z-index: 10;
+  border-bottom: solid 3px white;
+  margin-bottom: -3px;
+}
