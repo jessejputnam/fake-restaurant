@@ -2,8 +2,6 @@
 
 // HOMEPAGE
 const displayHome = function (node) {
-  node.classList.add("main");
-  node.classList.add("main--homepage");
   node.innerHTML = `
   <div class="intro">
     <p class="intro__tag body-txt--fancy">

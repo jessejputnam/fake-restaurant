@@ -1,6 +1,8 @@
 "use strict";
 
 import displayHome from "./displayHome";
+import displayMenu from "./displayMenu";
+import displayAbout from "./displayAbout";
 
 // DOM VARIABLES
 const headWrap = document.querySelector(".header__wrapper");
@@ -8,9 +10,11 @@ const tabs = document.querySelectorAll(".btn__tab");
 const content = document.getElementById("content");
 const main = document.querySelector("main");
 
-// SAVED VARIABLES
+// INITIAL LOAD
+let prevPage;
 let curPage = "home";
-// displayHome(main);
+displayHome(main);
+tabs[0].classList.add("tab--selected");
 
 // SELECTING TABS
 headWrap.addEventListener("click", (e) => {
@@ -18,6 +22,7 @@ headWrap.addEventListener("click", (e) => {
 
   if (!clicked) return;
 
+  prevPage = curPage;
   curPage = clicked.id.split("--")[1];
 
   tabs.forEach((tab) => tab.classList.remove("tab--selected"));
@@ -28,8 +33,10 @@ headWrap.addEventListener("click", (e) => {
 });
 
 const displayPage = function (page) {
-  main.className = "";
-  if (page === "home") {
-    displayHome(main);
-  }
+  main.classList.remove(`main--${prevPage}`);
+  main.classList.add(`main--${curPage}`);
+
+  if (page === "home") displayHome(main);
+  if (page === "menu") displayMenu(main);
+  if (page === "about") displayAbout(main);
 };
