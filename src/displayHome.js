@@ -20,7 +20,7 @@ const displayHome = function (node) {
       personally by our very own Chef Luna
     </p>
     <img
-      src="../images/luna-outdoor-search.jpg"
+      src="images/luna-outdoor-search.jpg"
       alt="Luna searching"
       class="promo__img promo__img--1"
     />
@@ -29,7 +29,7 @@ const displayHome = function (node) {
       prepared, and served with care and reverence...
     </p>
     <img
-      src="../images/luna-beach-dig.JPG"
+      src="images/luna-beach-dig.JPG"
       alt="Luna digging for clams"
       class="promo__img promo__img--2"
     />

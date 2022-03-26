@@ -16,7 +16,7 @@ const displayMenu = function (node) {
     <div class="menu--left">
       <div class="menu__item">
         <img
-          src="../images/menu-broth-mix.webp"
+          src="images/menu-broth-mix.webp"
           height="260px"
           class="item__img"
         />
@@ -28,7 +28,7 @@ const displayMenu = function (node) {
       </div>
       <div class="menu__item">
         <img
-          src="../images/menu-eggs-veg1.jpeg"
+          src="images/menu-eggs-veg1.jpeg"
           height="260px"
           class="item__img"
         />
@@ -40,7 +40,7 @@ const displayMenu = function (node) {
       </div>
       <div class="menu__item">
         <img
-          src="../images/menu-left-veg.jpeg"
+          src="images/menu-left-veg.jpeg"
           height="260px"
           class="item__img"
         />
@@ -55,7 +55,7 @@ const displayMenu = function (node) {
     <div class="menu--right">
       <div class="menu__item">
         <img
-          src="../images/menu-seeds-veg.jpeg"
+          src="images/menu-seeds-veg.jpeg"
           height="260px"
           class="item__img"
         />
@@ -67,7 +67,7 @@ const displayMenu = function (node) {
       </div>
       <div class="menu__item">
         <img
-          src="../images/menu-wing-bones.jpeg"
+          src="images/menu-wing-bones.jpeg"
           height="260px"
           class="item__img"
         />
@@ -79,7 +79,7 @@ const displayMenu = function (node) {
       </div>
       <div class="menu__item">
         <img
-          src="../images/menu-course-meal.jpeg"
+          src="images/menu-course-meal.jpeg"
           height="260px"
           class="item__img"
         />

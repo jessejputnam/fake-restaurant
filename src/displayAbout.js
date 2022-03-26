@@ -4,7 +4,7 @@
 
 const displayAbout = function (node) {
   node.innerHTML = `
-  <h1 class="title title--contact">What is A Merrier World?</h1>
+  <h1 class="title title--contact title--center">What is A Merrier World?</h1>
   <div class="about__info">
     <div class="about__info__txt">
       <p>
@@ -24,7 +24,7 @@ const displayAbout = function (node) {
     </div>
     <div class="about__info__imgs">
       <img
-        src="../images/luna-outdoor-antler.jpg"
+        src="images/luna-outdoor-antler.jpg"
         alt="Luna showing off her hunt"
         class="about__img"
         id="about__img--1"

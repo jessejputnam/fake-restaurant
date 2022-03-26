@@ -77,6 +77,10 @@ body {
   text-shadow: 0 1px 2px black;
 }
 
+.title--center {
+  text-align: center;
+}
+
 /* ################ #HEADER ################# */
 .header {
   display: flex;
@@ -307,7 +311,7 @@ footer {
 }
 
 .title--contact {
-  color: #d8e4d4;
+  color: #a3ae9b;
   text-shadow: 1px 2px 3px black;
 }
 
