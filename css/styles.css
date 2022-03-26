@@ -37,13 +37,20 @@ body {
   font-family: "Cormorant", "Times New Roman", Times, serif;
   font-size: 16px;
   padding: 0;
+
   background-image: url("../images/shawn-rain-O96dPUGMAsE-unsplash.jpg");
   background-size: cover;
 
-  min-height: 200px;
+  min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+
+  position: relative;
+}
+
+.body__wrapper {
+  padding-bottom: 50px;
 }
 
 #content {
@@ -126,6 +133,17 @@ main {
   transition: all 0.5s;
 }
 
+/* ################# FOOTER ################### */
+footer {
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  line-height: 44px;
+  background-image: linear-gradient(to bottom right, #e4fffac5, #3c944fb9);
+  position: absolute;
+  bottom: 0;
+}
+
 /* ########### #HOME PAGE ############## */
 .main--homepage {
   display: flex;
@@ -147,7 +165,7 @@ main {
 .title--fancy {
   font-family: "Tangerine", cursive;
   font-size: 3rem;
-  margin: 0;
+  /* margin: 0; */
   color: #90bca6;
   text-shadow: 0 1px 2px black;
 }
@@ -185,7 +203,6 @@ main {
 }
 
 /* ########### #MEDIA QUERIES ############## */
-
 @media only screen and (max-width: 1220px) {
   #content {
     margin: 0 10px;
@@ -193,9 +210,19 @@ main {
   }
 }
 
-/* @media only screen and (min-width: 1000px) {
-  .main--homepage {
-    flex-direction: row;
+@media only screen and (min-width: 1000px) {
+  /* HOMEPAGE */
+  .promo__img--1 {
+    margin-left: 10vw;
+  }
+  .promo__txt--1 {
+    margin-left: 10vw;
+  }
+
+  .promo__img--2 {
+    margin-right: 15vw;
+  }
+  .promo__txt--2 {
+    margin-right: 15vw;
   }
 }
-*/
